@@ -1,8 +1,8 @@
-input~ngb-datepicker {
-    width: 20rem;
+ngb-datepicker {
+    width: 25rem;
 }
 .ngb-dp-week.ngb-dp-weekdays, .ngb-dp-week{
-    width: 20rem;
+    width: 25rem;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row-reverse;
