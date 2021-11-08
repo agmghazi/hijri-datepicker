@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+input~ngb-datepicker {
+    width: 20rem;
+}
+.ngb-dp-week.ngb-dp-weekdays, .ngb-dp-week{
+    width: 20rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+
+.ngb-dp-navigation-select {
+    flex-direction: row-reverse;
+}
+
+ngb-datepicker-navigation {
+    flex-direction: row-reverse;
+}
+
+.ngb-dp-arrow {
+    flex-direction: row-reverse;
+}
+.ngb-dp-navigation-chevron {
+    /*transform: rotate(-135deg);*/
+    transform: rotate(45deg) !important;
+}
+
+.ngb-dp-arrow.right .ngb-dp-navigation-chevron {
+    transform: rotate(-135deg) !important;
+}
+
+.ngb-dp-arrow-btn:after{
+    attr("title"): "الشهر السابق";
+}
